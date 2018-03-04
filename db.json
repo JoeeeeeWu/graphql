@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "奖金就",
+      "content": "打断点",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "奖金嘎嘎嘎就",
+      "content": "打断硅谷点",
+      "author": 2
+    },
+    {
+      "title": "hello",
+      "content": "hahahahahah",
+      "author": "1",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "李白"
+    },
+    {
+      "id": 2,
+      "name": "杜普"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": 2,
+      "content": "好事"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": 1,
+      "content": "好事"
+    }
+  ]
+}

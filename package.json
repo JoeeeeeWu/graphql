@@ -1,0 +1,35 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon index.js --exec babel-node --presets env,stage-0",
+    "json-server": "./node_modules/.bin/json-server --watch db.json --port 3300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaozhouwu/graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaozhouwu/graphql/issues"
+  },
+  "homepage": "https://github.com/xiaozhouwu/graphql#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.1"
+  }
+}
